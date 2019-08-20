@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://apimeetapp.fvsystem.com.br',
+  baseURL: 'https://apimeetapp.fvsystem.com.br',
 });
 
 api.interceptors.response.use(
