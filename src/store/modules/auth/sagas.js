@@ -2,6 +2,7 @@ import { takeLatest, call, put, all } from 'redux-saga/effects';
 import { Alert } from 'react-native';
 
 import api from '~/services/api';
+import NavigationService from '~/services/navigation';
 
 import { signInSuccess, signFailure, signUpSuccess } from './actions';
 
@@ -46,6 +47,7 @@ export function* signUp({ payload }) {
     });
 
     yield put(signUpSuccess());
+    NavigationService.navigate('SignIn');
   } catch (err) {
     Alert.alert('Falha no cadastro, verifique seus dados!');
 

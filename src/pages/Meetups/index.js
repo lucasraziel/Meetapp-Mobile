@@ -71,8 +71,10 @@ export default function Meetups() {
   }
 
   async function handleEndReached() {
-    await setPage(pageOld => pageOld + 1);
-    await setLoading(true);
+    if (meetups.length > 9) {
+      await setPage(pageOld => pageOld + 1);
+      await setLoading(true);
+    }
   }
 
   async function handleSubscribe(meetup) {
