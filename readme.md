@@ -1,6 +1,9 @@
 # Meetapp Mobile
 
-Meetapp implementation for mobile
+Meetapp implementation for mobile app
+
+
+
 <img src="https://user-images.githubusercontent.com/26093830/67793535-c83d3a80-fa59-11e9-9c92-70f4c5a75440.png" width="288" height="592">
 <img src="https://user-images.githubusercontent.com/26093830/67793537-c83d3a80-fa59-11e9-829b-fa0588205f9b.png"  width="288" height="592">
 <img src="https://user-images.githubusercontent.com/26093830/67793538-c83d3a80-fa59-11e9-86b3-cad000d6a879.png"  width="288" height="592">
