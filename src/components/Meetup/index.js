@@ -44,7 +44,7 @@ export default function Meetup({ data, handler }) {
         <OrganizerContainer>
           <Icon name="person" color="#999" size={13} />
 
-          <Organizer>Organizer: {data.file.url}</Organizer>
+          <Organizer>Organizer: {data.user.name}</Organizer>
         </OrganizerContainer>
       </DataContainer>
       {data.active ? (
