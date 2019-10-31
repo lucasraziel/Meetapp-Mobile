@@ -1,4 +1,5 @@
 import styled from 'styled-components/native';
+import ImageScalable from 'react-native-scalable-image';
 import Button from '~/components/Button';
 
 export const Container = styled.View`
@@ -10,8 +11,7 @@ export const Container = styled.View`
   border-radius: 10px;
 `;
 
-export const Banner = styled.Image`
-  max-width: 100%;
+export const Banner = styled(ImageScalable)`
   height: 140px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
