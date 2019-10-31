@@ -29,7 +29,7 @@ export default function Meetup({ data, handler }) {
   );
   return (
     <Container>
-      <Banner source={{ uri: data.file.url }} />
+      <Banner source={{ uri: data.file.url }} height={140} />
       <DataContainer>
         <Title>{data.title}</Title>
         <DateContainer>

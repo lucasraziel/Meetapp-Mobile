@@ -12,7 +12,6 @@ export const Container = styled.View`
 `;
 
 export const Banner = styled(ImageScalable)`
-  height: 140px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   margin-bottom: 15px;
